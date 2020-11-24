@@ -1,0 +1,35 @@
+
+/* about US */
+main{
+	padding:1rem;
+	
+}
+img.feature{
+	float:right;
+	border:1px solid black;
+	margin-left:0.8rem;
+}
+main h1{
+	text-transform:uppercase;
+	margin-bottom:1rem;
+	border-bottom:1px solid #000;
+}
+
+aside{
+	background-color:orange;
+	float:left;
+	width:30%;
+	padding:0.3rem;
+	border:1px solid black;
+	margin-right:1rem;
+}
+  .fab {
+   display: flex;
+   justify-content: space-evenly;
+   color:black;
+
+   font-size: 35px; 
+   background-color:hsla(0, 0%, 92%, 1 );padding: 9px;}
+
+  
+

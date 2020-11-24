@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  
+
+  }
+  
+/* Gallery Page*/
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
+}
+
+.gallery img {
+  border-radius: 9px;
+}
+
+.gallery .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ border: 5px solid white;
+    border-radius: 1em;
+   justify-content: center;
+    text-align: center;
+  
+}
+
+
+
+
+ body {
+  margin: 0; 
+  font-size: clamp(14px, 3vw, 22px);
+  text-align: center;
+  
+}
+
+.card .figcaption {
+  font-size: 20px;
+  color: white;
+ justify-content: center;
+ text-align: center;
+}
+
+.footer {
+  display:flex;
+ justify-content: center;
+ align-items:center;
+  color: white;
+  background-color: black;
+  width: 100vw;
+}  

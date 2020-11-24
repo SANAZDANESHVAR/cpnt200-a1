@@ -1,0 +1,91 @@
+legend {
+    font-weight: bold;
+  }
+  
+  form {
+    min-width: 40ch;
+    max-width: 60ch;
+    height:auto;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    margin-top:1em;
+  }
+  main {
+    min-height:100vh;
+  }
+  
+  /* Text fields */
+  .text-fields p {
+    display: flex;
+  }
+  
+  .text-fields p label {
+    width: 10ch;
+
+   margin: auto;
+   text-align:left;
+  }
+  
+  .text-fields p input {
+    flex: 1;
+  }
+  
+  /* Checkboxes */
+  
+  fieldset ul {
+    margin-left: 2rem;
+  }
+  
+  fieldset ul input {
+    height: 1rem;
+    width: 1rem;
+  }
+.FOOTER{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  color: white;
+  text-align: center;
+}
+  button {
+    font-size: 15px;
+    padding: 1em;
+
+   background-color:black;
+   color:whitesmoke;
+  }
+
+  button:hover {
+    font-size: 15px;
+    padding: 1em;
+
+   background-color:thistle;
+   color:black;
+  }
+  
+  /* Form reset */
+  fieldset {
+    border: none;
+    justify-items: center;
+    margin:auto;
+  }
+  
+  input {
+    border: 1px solid darkgrey;
+  }
+  header{
+    display: inline-block; 
+    justify-content: center;
+    align-items :center;
+    font-size: 40px;
+   
+    width:100vw;
+    height:10v;
+    font-size: 40px;
+  }
+   /*red stat */
+  abbr {
+    color:red;
+  }

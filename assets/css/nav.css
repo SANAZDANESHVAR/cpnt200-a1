@@ -1,0 +1,180 @@
+/* RESETS */
+
+* {
+  box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
+}
+html {
+  font-size: 10px;
+}
+
+.wrapper {
+  display:flex;
+  flex-direction:column;
+  background-color:black; 
+  color: white;
+  text-align: left;
+
+  min-height: 10vh;
+  width: 100vw;;
+  padding: 1em;
+  }
+
+  header{
+  background-color: black;
+color:whitesmoke;
+}
+  
+ .hero {
+   display:flex;
+   flex-wrap:wrap ;
+   background-size: cover;
+   justify-items: center;
+   align-items:center;
+   background-position:top;
+   background-image:
+      url("https://raw.githubusercontent.com/SANAZDANESHVAR/cpnt200-a1/main/assets/images/b3.jpg"),linear-gradient( rgba(255,0,0,0), rgba(17, 0, 255, 0.432), transparent);
+   color:black;
+   text-align: left;
+   padding-left:2em;
+   min-height:90vh;
+   width:100vw;
+  } 
+
+  main {
+  flex:1; 
+  }
+
+
+.hero{
+display:flex-end;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.Article {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+  body {
+  margin: 0; 
+  font-size: clamp(14px, 3vw, 22px);
+
+  font-variant: small-caps;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+ul{
+  display:flex;
+  padding-right: 0;
+  justify-content: right; 
+  display: flex;
+  margin-bottom: 2rem;
+ }
+
+nav ul {
+  list-style-type: none;
+ display:flex ;
+
+ } 
+nav ul li {
+ text-align: center;
+}
+  
+nav ul a {
+ text-decoration: none;
+  color: white;
+ border: 1px solid white;
+ display: block;
+  padding: 0.5em 1em;
+}
+nav ul a:hover {
+ background-color:thistle;
+  color:black;
+}
+nav ul a:active {
+ background-color: hsl(60deg, 100%, 80%);
+  color: black;
+}
+  
+nav ul a.current {
+ background-color:wheat;
+ color:black;
+}
+.Footer {
+ background: rgb(7, 7, 7);
+ color: white;
+ text-align: center;
+ font-size: medium;
+ padding:1em;
+}
+
+.my-logo {
+  display:flex;
+  align-items:left;
+  text-align:left;
+  color:white;
+
+  padding-left: 1.5em;
+  padding-bottom: 1.5em; 
+  min-width: 50ch;
+  font-size:35px;
+  /*justify-content:center;*/
+}
+
+my-logo a:hover
+{
+  color:black;
+  background-color:thistle;
+}
+
+.page-wrapper {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  margin-bottom: 2em;
+  width:100vw;
+  min-height:10vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  display: flex;
+}
+
+
+/*Media Queries.*/
+    @media (orientation: landscape) {
+   section .home-home{
+      flex-direction: row;
+      width:100vw;
+      min-height:100vh;
+   }
+ }
+ 
+ @media (orientation: portrait) {
+   body {
+     flex-direction: column;
+
+     width:100vw;
+     min-height:100vh;
+  }
+     }
+     @media screen and (max:400px) {
+      header{
+        max-width: 300px; 
+         min-height:10vh;
+         font-size: 15px;
+      }
+    }
+
